@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Registration</title>
+    <link rel="stylesheet" href="acctsetup.css">
+    <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please Fill out all required Information</p>
+    <div class="container">
+    <div class="registration-box">
+    <div class="user-icon">
+    <i class="far fa-user"></i>
+    </div>
+<form class="registration">
+    <div class="form-group">
+        <fieldset>
+            <label for="first-name">Enter First Name: <input id="first-name" name="first-name" type="text" required /></lable>
+                <label for="last-name">Enter Last Name:  <input id="last-name" name="last-name" type="text" required /></label>
+                <label for="email">Enter Your Email: <input id="email" name="email" type="text" required /></label>
+                <label for="username">Create a Username: <input id="username" name="username" type="text" required /></label>
+                <label for="new-password">Create a password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8, }" required /></label>  
+                <label for="terms-and-conditions" name="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the Terms and Conditions </label>
+        </fieldset>
+    </div>
+    <div class="form-group">
+        <a href="petprofile.html">
+            <button class="full-btn" input type="button" value="submit">Submit</button>
+        </a>
+
+    </div>
+</form>
+    
+</div>
+</body>
+</html>

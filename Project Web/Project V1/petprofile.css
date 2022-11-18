@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+   }
+   body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg , #E91E63, #42A5F5);
+   }
+   h1{
+
+    margin: 1em auto;
+    text-align: center;
+   }
+   form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: -2em;
+   }
+   fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #E91E63;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+   .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+   }
+
+   .profile-box{
+    background: #FFF;
+    padding: 100px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 500px;
+    font-size: 14px;
+    border-radius: 5px;
+    position: relative; bottom: 130px;
+   }
+   .user-icon{
+    background: #E91E63;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+   }
+   .user-icon i{
+    font-size: 40px;
+    color: #FFF;
+   }
+
+   input,
+   textarea,
+   select{
+    margin: 15px -50px 10px 10px;
+    width: 25%;
+    min-height: 1em;
+   }
+
+   button{
+    background: #E91E63;
+    color: #FFF;
+    padding: 10px 20px 20px;
+    display: block;
+    width: 100%;
+    border:none;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+   }
+   
+   button:hover{
+    box-shadow: 5px 5px 5px #CCC;
+   }
+   .serparater {
+    width: 100%;
+    border-top: 3px solid #E91E63;
+    border-bottom: 3px solid #E91E63;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 12px;
+    position: relative; bottom: 5px;
+    display: inline-block;
+   }
+   .dashboard-login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+   }
+   a{
+    float: left;
+    margin-right: 25px;
+   }
+   input[type="radio"]{
+    margin: 5px ;
+    width: auto;
+    text-align: left;
+    
+   }
+   input[type="checkbox"]{
+    margin: 5px ;
+    width: auto;
+    text-align: left;
+   }
+   input[type="file"] {
+    margin: 5px ;
+    width: auto;
+    text-align: left;
+  }
+
+
+
+
+
+
+
+
+
